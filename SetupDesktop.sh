@@ -62,3 +62,4 @@ betterdiscord-installer \
 opentabletdriver \
 
 systemctl enable lightdm
+reboot

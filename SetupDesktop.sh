@@ -42,7 +42,7 @@ kitty \
 samba \
 feh \
 rsync \
-phython3 \
+python3 \
 amd-ucode \
 nvidia-dkms \
 unzip \

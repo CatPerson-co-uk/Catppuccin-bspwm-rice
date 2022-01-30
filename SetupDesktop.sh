@@ -55,7 +55,12 @@ steam \
 lightdm \
 lightdm-gtk-greeter \
 noto-fonts \
-noto-fonts-emoji 
+noto-fonts-emoji \
+zsh \
+wget
+
+# ohmyzsh
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 yay -S --noconfirm \
 betterlockscreen \

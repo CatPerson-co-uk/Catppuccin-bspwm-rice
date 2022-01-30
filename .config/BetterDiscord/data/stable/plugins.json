@@ -1,0 +1,9 @@
+{
+    "SplitLargeMessages": true,
+    "BDFDB": true,
+    "MessageLoggerV2": true,
+    "ZeresPluginLibrary": true,
+    "XenoLib": true,
+    "ThemeRepo": true,
+    "QuickDeleteMessages": true
+}

@@ -1,0 +1,135 @@
+/**
+ * @name Comfy-theme
+ * @author Nyria#0001
+ * @description A simple customisable comfy theme
+ * @version 1.0.0
+ */
+
+ @import "https://nyri4.github.io/Comfy-theme/BetterDiscord/main.css";
+
+ :root { 
+ 
+     /* -- Addons -- */
+ 
+     /* BetterAvatar Popout */
+ 
+     --popout-status-icon: block; /* Set it to "block" if u want to have the status icon in big popouts */
+     --popout-status-mask: none; /* Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in big popouts */
+     --avatar-radius: 50%; /* Change the roundness of avatar in big popouts, u need to disable the mask to use this */
+ 
+     /* Colored emoji picker */
+     --colored-emoji: grayscale(0%); /* Change the value to "100%" if u want the basic one */
+}
+
+    /* BetterPopout --> Delete all until "Others settings" if u don't want it */
+
+    .headerTop-3C2Zn0 {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-areas: "avatar info" "status status" "last last" "join join" "date date" "badges badges";
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .avatarWrapperNormal-3wFMbf {
+        margin: 0;
+        margin-right: 8px;
+    }
+    .customStatus-1bh2V9 {
+        grid-area: status;
+        text-align:center;      
+        margin-top: 25px;
+    }
+    .note-3HfJZ5, .bodyTitle-Y0qMQz:nth-child(3), .footer-1fjuF6 { display: none; }
+    .rolesList-22qj2L { margin-bottom: 0px; }
+
+     /* -- Others settings -- */
+
+:root { 
+
+     /* User settings color (Mute, Deafen and settings) */
+    --user-buttons-color: #ff12ac;
+
+    /* User settings spacing */
+    --user-buttons-spacing: 10px;
+
+    /* Chat buttons color */
+    --chat-buttons: #ff12ac;
+ 
+     /* Circles next to role names */
+     --role-circle: 8px; /* Set it to "0px" if u don't want circles */
+ 
+     /* Tooltips (Example : https://i.ibb.co/hDSQtqw/Capture.png) */
+     --tooltips: block; /* Set it to "none" if u don't want it */
+
+     /* Separators */
+     --separators: none; /* Set it to "block" if u want it */
+ 
+     /* Discord logo */
+     --discord-logo: none; /* Set it to "block" if u want it */
+ 
+ } /* thx snapperito and Harley for the help :3 */
+ 
+ .theme-dark {
+    --background-tertiary: #FFC7D4 !important;
+    --background-secondary: #49292f !important;
+    --background-secondary-alt: #3b1d24 !important;
+    --background-primary: #5e3640 !important;
+    --background-modifier-accent: none !important;
+    --background-modifier-hover: #301c29 !important;
+    --background-modifier-active: #2e1a27 !important;
+    --background-modifier-selected: #2e1927 !important;
+    --background-accent: #d36fb0 !important;
+    --header-primary: #fff !important;
+    --header-secondary: #eee !important;
+    --text-normal: #e9e9e9 !important;
+    --settings-buttons-text: #fff !important;
+    --channeltextarea-background: #2e1927 !important;
+    --deprecated-card-bg: #20131c !important;
+    --background-floating: #3e2334 !important;
+    --deprecated-quickswitcher-input-background: #1f0f19 !important;
+    --scrollbar-auto-thumb: #21121c !important;
+    --scrollbar-auto-track: #none !important;
+    --scrollbar-thin-thumb: #none !important;
+    --elevation-low: none !important;
+    --smallpopoutcolor1: #fff !important;
+    --smallpopoutcolor2: #3e2334 !important;
+    --spotify-color: #ff12ac !important;
+    --user-buttons-color: #ff12ac !important;
+    --chat-buttons: #ff12ac !important;
+    --text-link: #ff12ac !important;
+    --CircleIconButton: #ff12ac !important;
+    --DiscordDMButtonBG: #3e2334 !important;
+    --DiscordDMButtonActive: #fff !important;
+    --elevation-low: none !important;
+    --CircleIconButtonBG: #3e2334 !important;
+ }
+ 
+ .theme-light {
+    --background-tertiary: #eedde8 !important;
+    --background-secondary: #eedde8 !important;
+    --background-secondary-alt: #eedde8 !important;
+    --background-primary: #eedde8 !important;
+    --background-modifier-accent: none !important;
+    --background-floating: #eedde8 !important;
+    --deprecated-quickswitcher-input-background: #1f0f19 !important;
+    --scrollbar-auto-thumb: #ff9cdd !important;
+    --scrollbar-auto-track: none !important;
+    --scrollbar-thin-thumb: none !important;
+    --elevation-low: none !important;
+    --header-primary: #000 !important;
+    --header-secondary: #1f1d1e !important;
+    --text-normal: #2e2b2b !important;
+    --settings-buttons-text: #fff !important;
+    --smallpopoutcolor1: #fff !important;
+    --smallpopoutcolor2: #d1b8c8 !important;
+    --user-background: #d1b8c8 !important;
+    --spotify-color: #ff12ac !important;
+    --user-buttons-color: #ff12ac !important;
+    --chat-buttons: #ff12ac !important;
+    --channeltextarea-background: #fff !important;
+    --text-link: #ff12ac !important;
+    --CircleIconButton: #ff12ac !important;
+    --DiscordDMButtonBG: #eedde8 !important;
+    --DiscordDMButtonActive: #fff !important;
+    --CircleIconButtonBG: #eedde8 !important;
+ }

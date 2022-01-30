@@ -1,0 +1,12 @@
+{
+    "currentVersionInfo": {
+        "version": "1.0.12",
+        "hasShownChangelog": true
+    },
+    "settings": {
+        "misc": {
+            "confirmDelete": false,
+            "ctrlClickDelete": true
+        }
+    }
+}

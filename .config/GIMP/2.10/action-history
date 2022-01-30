@@ -1,0 +1,17 @@
+# GIMP action-history
+
+(history-item "tools-scale" 5)
+(history-item "file-open" 0)
+(history-item "file-export" 2)
+(history-item "image-new" 1)
+(history-item "file-quit" 1)
+(history-item "tools-align" 0)
+(history-item "tools-move" 0)
+(history-item "layers-duplicate" 0)
+(history-item "file-save-as" 0)
+(history-item "file-save-and-close" 1)
+(history-item "file-export-as" 0)
+(history-item "dialogs-preferences" 0)
+(history-item "layers-delete" 1)
+
+# end of action-history

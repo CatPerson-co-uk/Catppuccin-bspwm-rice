@@ -1,0 +1,22 @@
+[Configuration]
+LastActiveMode=THUNAR_RENAMER_MODE_BOTH
+LastActiveRenamer=ThunarSbrRemoveRenamer
+
+[ThunarSbrInsertRenamer]
+Offset=4
+Text=\ \ \ \ 
+Mode=THUNAR_SBR_INSERT_MODE_OVERWRITE
+OffsetMode=THUNAR_SBR_OFFSET_MODE_RIGHT
+
+[ThunarSbrReplaceRenamer]
+CaseSensitive=FALSE
+Replacement=
+Pattern=\ 
+Regexp=FALSE
+
+[ThunarSbrRemoveRenamer]
+StartOffset=4
+EndOffset=0
+EndOffsetMode=THUNAR_SBR_OFFSET_MODE_RIGHT
+StartOffsetMode=THUNAR_SBR_OFFSET_MODE_RIGHT
+

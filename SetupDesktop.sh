@@ -47,12 +47,15 @@ amd-ucode \
 nvidia-dkms \
 unzip \
 zip \
-pcmanfm \
+thunar \
 udiskie \
 rofi \
 ttf-font-awesome \
 steam \
-lightdm
+lightdm \
+lightdm-gtk-greeter \
+noto-fonts \
+noto-fonts-emoji 
 
 yay -S --noconfirm \
 betterlockscreen \

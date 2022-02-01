@@ -57,7 +57,10 @@ lightdm-gtk-greeter \
 noto-fonts \
 noto-fonts-emoji \
 zsh \
-wget
+wget \
+lib32-nvidia-utils \
+atom \
+vlc 
 
 # ohmyzsh
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
@@ -68,6 +71,7 @@ polybar \
 clearine-git \
 betterdiscord-installer \
 opentabletdriver \
+github-desktop
 
 systemctl enable lightdm
 reboot

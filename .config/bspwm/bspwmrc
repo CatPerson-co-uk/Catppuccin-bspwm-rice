@@ -12,7 +12,7 @@ picom &
 killall  dunst &
 dunst &
 
-/home/alfred/.config/polybar/./launch.sh &
+~/.config/polybar/./launch.sh &
 
 setxkbmap gb &
 

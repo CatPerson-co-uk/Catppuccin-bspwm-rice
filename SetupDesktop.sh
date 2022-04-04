@@ -59,8 +59,8 @@ noto-fonts-emoji \
 zsh \
 wget \
 lib32-nvidia-utils \
-atom \
-vlc 
+vlc \
+dunst
 
 # ohmyzsh
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
